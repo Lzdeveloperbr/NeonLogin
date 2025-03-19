@@ -23,17 +23,14 @@ NeonLogin é um projeto de **login futurista** com um visual **minimalista** e *
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/AlanGodoy/NeonLogin.git
+   git clone https://github.com/Lzdeveloperbr/NeonLogin.git
 Abra o arquivo index.html em seu navegador. 🌐
 
 🤝 Contribuição
+
 Contribuições são sempre bem-vindas! Se você quiser ajudar a melhorar o projeto, basta abrir um pull request com melhorias, sugestões ou correções de bugs 🛠️
 
 
 
 👨‍💻 Autor
 Feito com ❤️ por Alan Godoy 💻
-
-css
-Copiar
-Editar
