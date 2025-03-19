@@ -18,15 +18,13 @@ NeonLogin é um projeto de **login futurista** com um visual **minimalista** e *
 - **Design responsivo**, garantindo boa visualização em dispositivos móveis e desktop 📱💻
 - **Feedback visual** com animações ao passar o mouse e ao submeter o formulário 🎯
 
-## 📦 Como Executar o Projeto
+## 🔗 Link do Projeto
 
-1. Clone o repositório:
+Você pode acessar a versão online do projeto diretamente clicando no link abaixo:
 
-   ```bash
-   git clone https://github.com/Lzdeveloperbr/NeonLogin.git
-Abra o arquivo index.html em seu navegador. 🌐
+👉 [NeonLogin - Projeto Online](https://lzdeveloperbr.github.io/NeonLogin/)
 
-🤝 Contribuição
+## 🤝 Contribuição
 
 Contribuições são sempre bem-vindas! Se você quiser ajudar a melhorar o projeto, basta abrir um pull request com melhorias, sugestões ou correções de bugs 🛠️
 
