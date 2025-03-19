@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(135deg, #13111A, #0C0A18);
+    color: #E0E0E0;
+}
+
+/* 🔹 Cabeçalho */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00E6A0;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0dcf9c;
+}
+
+/* 🔹 Layout Principal */
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #13111A, #0C0A18);
+    padding-top: 80px;
+}
+
+/* 🔹 Animação de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 🔹 Seção Esquerda */
+.left-login {
+    width: 50%;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.left-login h1 {
+    font-size: 3vw;
+    color: #00E6A0;
+    text-shadow: 0px 0px 20px rgba(0, 255, 194, 0.8);
+}
+
+.left-login img {
+    width: 60%;
+}
+
+/* 🔹 Seção Direita */
+.right-login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* 🔹 Cartão de Login */
+.card-login {
+    background: rgba(30, 30, 40, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 136, 0.5);
+    text-align: center;
+}
+
+/* 🔹 Formulário */
+.textfield {
+    margin-bottom: 15px;
+}
+
+.textfield label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00E6A0;
+}
+
+.textfield input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(0, 255, 136, 0.2);
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.textfield input:focus {
+    box-shadow: 0px 0px 15px #00E6A0;
+    background: rgba(0, 255, 136, 0.4);
+}
+
+/* 🔹 Botão */
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #00E6A0;
+    color: #13111A;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px rgba(0, 255, 194, 0.8);
+}
+
+.btn-login:hover {
+    background: #0dcf9c;
+    box-shadow: 0px 0px 25px #00E6A0;
+}
+
+/* 🔹 Links adicionais */
+.extra-options {
+    margin-top: 15px;
+}
+
+.extra-options a {
+    text-decoration: none;
+    color: #00E6A0;
+    font-size: 14px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.extra-options a:hover {
+    color: #0dcf9c;
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 768px) {
+    .main-login {
+        flex-direction: column;
+    }
+
+    .left-login {
+        display: none;
+    }
+
+    .right-login {
+        width: 100%;
+    }
+}
