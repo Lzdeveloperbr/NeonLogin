@@ -28,7 +28,6 @@ Você pode acessar a versão online do projeto diretamente clicando no link abai
 
 Contribuições são sempre bem-vindas! Se você quiser ajudar a melhorar o projeto, basta abrir um pull request com melhorias, sugestões ou correções de bugs 🛠️
 
+## 👨‍💻 Autor
 
-
-👨‍💻 Autor
 Feito com ❤️ por Alan Godoy 💻
